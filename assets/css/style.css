@@ -258,6 +258,8 @@ h6 {
 
 #hero .hero-container {
   position: relative;
+  bottom: -300px;
+  left: -200px;
   z-index: 2;
   min-width: 300px;
 }
