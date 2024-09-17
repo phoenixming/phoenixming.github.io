@@ -257,9 +257,9 @@ h6 {
 }
 
 #hero .hero-container {
-  position: relative;
-  bottom: -300px;
-  left: -200px;
+  position: absolute;
+  bottom: 0; /* Anchors to the bottom of the containing block */
+  left: 5;   /* Anchors to the left side */
   z-index: 2;
   min-width: 300px;
 }
